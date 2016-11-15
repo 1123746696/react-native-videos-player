@@ -1,8 +1,9 @@
 {
-  "name": "react-native-video",
+  "name": "react-native-videos-player",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
-  }
+  },
+  "description": "适用于react-native的网络视频播放模块，适用于ios和android"
 }
