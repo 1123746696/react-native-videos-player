@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface RCTVideoPlayer : NSObject
+#import "RCTBridge.h"
+@interface RCTVideoPlayer : NSObject<RCTBridgeModule>
 
 @end
