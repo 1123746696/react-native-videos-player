@@ -27,4 +27,7 @@ RCT_EXPORT_METHOD(play:(NSDictionary *)play){
     [avPlayer.player play];
     
 }
+- (dispatch_queue_t)methodQueue {
+    return dispatch_get_main_queue();
+}
 @end
