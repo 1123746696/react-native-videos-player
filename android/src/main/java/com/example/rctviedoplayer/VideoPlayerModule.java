@@ -33,7 +33,7 @@ public class VideoPlayerModule extends ReactContextBaseJavaModule {
             return ;
         }
 
-        final Context context = getCurrentActivity();
+        final Context context = this.reactContext.getBaseContext();
         Intent intent = new Intent(context, VideoPlayerActivity.class);
         intent.putExtra("PATH", path);
         context.startActivity(intent);
