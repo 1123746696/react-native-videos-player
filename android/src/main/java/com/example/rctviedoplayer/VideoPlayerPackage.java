@@ -22,7 +22,7 @@ public class VideoPlayerPackage implements ReactPackage {
         return list;
     }
 
-    @Override
+    //@Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
